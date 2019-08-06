@@ -6,9 +6,14 @@
 </h1>
 
 <div align="center">
+  
 :new: Customized WordPress login page with unique animations and effects.
+
+<img src="https://github.com/jimi008/Animated-WordPress-Login/blob/master/public/css/animation.svg" width="300" height="300">
+  
 </div>
 
+<br>
 
 ![Coming Soon](https://img.icons8.com/color/100/000000/coming-soon.png)
 
