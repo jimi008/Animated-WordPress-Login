@@ -24,4 +24,5 @@ New Option panel is coming soon to customize animations and login template.
 <br>
 <br>
 <br>
+
 [![Courtesy](https://raw.githubusercontent.com/jimi008/Animated-WordPress-Login/master/CBT_OS-logo_2Color-V.png)](https://crossbrowsertesting.com/)
