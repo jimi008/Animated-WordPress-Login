@@ -8,12 +8,10 @@
 <div align="center">
   
 :new: Customized WordPress login page with unique animations and effects.
-
+<br>
 <img src="https://raw.githubusercontent.com/jimi008/Animated-WordPress-Login/master/public/img/plugin-header-logo.png" width="300" height="300">
   
 </div>
-
-<br>
 
 ![Coming Soon](https://img.icons8.com/color/100/000000/coming-soon.png)
 
