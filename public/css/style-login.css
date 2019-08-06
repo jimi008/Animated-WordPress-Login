@@ -1,0 +1,332 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/*Add styles beneath this line that you want to be applied across your entire site */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(jquery-ui.min.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* colors */
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #eff3f4;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased; }
+
+.login form {
+  position: absolute !important;
+  top: 50%;
+  left: 50% !important;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFF;
+  margin: 0;
+  padding: 2.25em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 1px #DDD;
+  border-radius: .5em;
+  font-family: 'Source Sans Pro', sans-serif; }
+  .login form .svgContainer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 1em;
+    border-radius: 50%;
+    pointer-events: none; }
+    .login form .svgContainer div {
+      position: relative;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 50%;
+      padding-bottom: 100%; }
+    .login form .svgContainer .mySVG {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; }
+    .login form .svgContainer:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: inherit;
+      height: inherit;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border: solid 2.5px #217093;
+      border-radius: 50%; }
+  .login form .inputGroup {
+    margin: 0 0 2em;
+    padding: 0;
+    position: relative; }
+    .login form .inputGroup:last-of-type {
+      margin-bottom: 0; }
+  .login form label {
+    margin: 0 0 12px;
+    display: block;
+    font-size: 1.25em;
+    color: #217093;
+    font-weight: 700;
+    font-family: inherit; }
+  .login form input[type='email'], .login form input[type="text"], .login form input[type="number"], .login form input[type="url"], .login form input[type="search"], .login form input[type="password"] {
+    display: block;
+    margin: 0;
+    padding: 0 1em 0;
+    padding: .875em 1em 0;
+    background-color: #f3fafd;
+    border: solid 2px #217093;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 65px;
+    font-size: 1.55em;
+    color: #353538;
+    font-weight: 600;
+    font-family: inherit;
+    -webkit-transition: border-color .25s ease-out, -webkit-box-shadow .2s linear;
+    transition: border-color .25s ease-out, -webkit-box-shadow .2s linear;
+    -o-transition: box-shadow .2s linear, border-color .25s ease-out;
+    transition: box-shadow .2s linear, border-color .25s ease-out;
+    transition: box-shadow .2s linear, border-color .25s ease-out, -webkit-box-shadow .2s linear; }
+    .login form input[type='email']:focus, .login form input[type="text"]:focus, .login form input[type="number"]:focus, .login form input[type="url"]:focus, .login form input[type="search"]:focus, .login form input[type="password"]:focus {
+      outline: none;
+      -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      border: solid 2px #4eb8dd; }
+  .login form button {
+    display: block;
+    margin: 0;
+    padding: .65em 1em 1em;
+    background-color: #4eb8dd;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    height: 65px;
+    font-size: 1.55em;
+    color: #FFF;
+    font-weight: 600;
+    font-family: inherit;
+    -webkit-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out; }
+    .login form button:hover, .login form button:active {
+      background-color: #217093; }
+  .login form .inputGroup1 .helper {
+    position: absolute;
+    z-index: 1;
+    font-family: inherit; }
+  .login form .inputGroup1 .helper1 {
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(1em, 2.2em) scale(1);
+    -ms-transform: translate(1em, 2.2em) scale(1);
+    transform: translate(1em, 2.2em) scale(1);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    color: #217093;
+    font-size: 1.55em;
+    font-weight: 400;
+    opacity: .65;
+    pointer-events: none;
+    -webkit-transition: opacity .2s linear, -webkit-transform .2s ease-out;
+    transition: opacity .2s linear, -webkit-transform .2s ease-out;
+    -o-transition: transform .2s ease-out, opacity .2s linear;
+    transition: transform .2s ease-out, opacity .2s linear;
+    transition: transform .2s ease-out, opacity .2s linear, -webkit-transform .2s ease-out; }
+  .login form .inputGroup1 .focusWithText .helper {
+    -webkit-transform: translate(1em, 1.55em) scale(0.6);
+    -ms-transform: translate(1em, 1.55em) scale(0.6);
+    transform: translate(1em, 1.55em) scale(0.6);
+    opacity: 1; }
+  .login form .inputGroup2 input[type="password"] {
+    padding: .4em 1em .5em; }
+  .login form .inputGroup2 input[type="text"] {
+    padding: .025em 1em 0; }
+  .login form .inputGroup2 #showPasswordToggle {
+    display: block;
+    padding: 0 0 0 1.45em;
+    position: absolute;
+    top: .25em;
+    right: 0;
+    font-size: 1em; }
+    .login form .inputGroup2 #showPasswordToggle input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0; }
+    .login form .inputGroup2 #showPasswordToggle .indicator {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: .85em;
+      width: .85em;
+      background-color: #f3fafd;
+      border: solid 2px #217093;
+      border-radius: 3px; }
+      .login form .inputGroup2 #showPasswordToggle .indicator:after {
+        content: "";
+        position: absolute;
+        left: .25em;
+        top: .025em;
+        width: .2em;
+        height: .5em;
+        border: solid #217093;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        visibility: hidden; }
+    .login form .inputGroup2 #showPasswordToggle input:checked ~ .indicator:after {
+      visibility: visible; }
+    .login form .inputGroup2 #showPasswordToggle input:focus ~ .indicator, .login form .inputGroup2 #showPasswordToggle input:hover ~ .indicator {
+      border-color: #4eb8dd; }
+    .login form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator {
+      opacity: .5; }
+      .login form .inputGroup2 #showPasswordToggle input:disabled ~ .indicator:after {
+        visibility: hidden; }
+
+#login h1 a,
+.login h1 a {
+  display: none; }
+
+.login #login_error, .login .message {
+  /*position: absolute;*/
+  /*top: 0;*/ }
+
+.login form .inputGroup input[type='text'], .login form .inputGroup input[type='password'] {
+  margin-top: 12px; }
+
+.login form input[type='email'], .login form input[type="text"], .login form input[type="number"], .login form input[type="url"], .login form input[type="search"], .login form input[type="password"] {
+  font-size: 1.24em; }
+
+.login form .inputGroup1 .helper1 {
+  font-size: 1.24em; }
+
+.login form .inputGroup2 #showPasswordToggle {
+  font-size: 0.8em; }
+
+.login form .button.button-large {
+  display: block;
+  margin: 0;
+  padding: .65em 1em 1em;
+  background-color: #4eb8dd;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  height: 65px;
+  font-size: 1.55em;
+  color: #FFF;
+  font-weight: 600;
+  font-family: inherit;
+  -webkit-transition: background-color .2s ease-out;
+  -o-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out; }
+  .login form .button.button-large:hover, .login form .button.button-large:active {
+    background-color: #217093; }
+
+.login form .forgetmenot label {
+  display: block;
+  /*padding: 0 0 0 1.45em;*/
+  font-size: 1em; }
+  .login form .forgetmenot label input {
+    height: 1.1em;
+    width: 1.1em;
+    background-color: #f3fafd;
+    border: solid 2px #217093;
+    border-radius: 3px; }
+    .login form .forgetmenot label input:after {
+      content: "";
+      position: absolute;
+      left: .25em;
+      top: .025em;
+      width: .2em;
+      height: .5em;
+      border: solid #217093;
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      visibility: hidden; }
+  .login form .forgetmenot label input:checked ~ .indicator:after {
+    visibility: visible; }
+  .login form .forgetmenot label input:focus ~ .indicator, .login form .forgetmenot label input:hover ~ .indicator {
+    border-color: #4eb8dd; }
+  .login form .forgetmenot label input:disabled ~ .indicator {
+    opacity: .5; }
+    .login form .forgetmenot label input:disabled ~ .indicator:after {
+      visibility: hidden; }
+
+.login form input[type=checkbox]:checked:before {
+  font: 400 21px/1 dashicons; }
