@@ -21,8 +21,11 @@ New Option panel is coming soon to customize animations and login template.
 - Multiple login templates 
 - Customizable colors
 
+<br>
+<br>
+<br>
+[![Courtesy](https://crossbrowsertesting.com/)](https://raw.githubusercontent.com/jimi008/Animated-WordPress-Login/master/CBT_OS-logo_2Color-V.png)
 
-![Courtesy](https://github.com/jimi008/Animated-WordPress-Login/blob/master/CBT_OS-logo_2Color-V.png)
 
 
 
