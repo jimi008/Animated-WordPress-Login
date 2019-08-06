@@ -1,7 +1,11 @@
-<h1 align="center">
+<div align="center">
   
 <img src="https://raw.githubusercontent.com/jimi008/Animated-WordPress-Login/master/public/img/plugin-header-logo.png" width="300" height="300">
 
+</div>
+
+<h1 align="center">
+  
 <img src="https://img.icons8.com/cute-clipart/64/000000/login-rounded-right.png"> 
 
 `Animated WordPress Login` 
@@ -13,9 +17,13 @@
 :new: <b>Customized WordPress login page with unique animations and effects.</b>
 
 </div>
+
 <br>
+
 This plugin is based on work by Darin Senneff. Twitter: @dsenneff
+
 <br>
+
 ![Coming Soon](https://img.icons8.com/color/100/000000/coming-soon.png)
 
 
