@@ -1,6 +1,5 @@
 <h1 align="center">
 <img src="https://img.icons8.com/cute-clipart/64/000000/login-rounded-right.png"> 
-
 `Animated WordPress Login` 
 </h1>
 
@@ -8,7 +7,9 @@
 :new: Customized WordPress login page with unique animations and effects.
 </div>
 
-![Philosophy](https://img.icons8.com/color/100/000000/coming-soon.png)
+
+![Coming Soon](https://img.icons8.com/color/100/000000/coming-soon.png)
+
 
 ### New Option panel 
 
