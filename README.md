@@ -4,8 +4,9 @@
 `Animated WordPress Login` 
 </h1>
 
+<div align="center">
 :new: Customized WordPress login page with unique animations and effects.
-
+</div>
 
 ![Philosophy](https://img.icons8.com/color/100/000000/coming-soon.png)
 
