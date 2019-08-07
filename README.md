@@ -12,7 +12,7 @@
 
 <div align="center">
   
-:new: <b>Customized WordPress login page with unique animations and effects.</b>
+📦 <b>Customized WordPress login page with unique animations and effects.</b>
 
 </div>
 
@@ -27,7 +27,7 @@
 
 ### New Option panel 
 
-New Option panel is coming soon to customize animations and login template. 
+🚀 New Option panel is coming soon to customize animations and login template. 
 
 - Multiple animations
 - Multiple login templates 
