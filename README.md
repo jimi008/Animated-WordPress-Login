@@ -37,5 +37,4 @@
 <br>
 <br>
 
-[![Courtesy] 
-BrowserStack.com 
+[Courtesy!](BrowserStack.com)
